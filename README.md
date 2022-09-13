@@ -1,0 +1,2 @@
+## WebMarkdownLoader实现过程
+WebMarkdownLoader是基于markdown-it开发的markdown解析loader。实现思路，是通过配置webpack.config.js，在加载md的时候，将其中的markdown语句传入loader中。loader中使用loader-utils插件获取配置参数，使用schema-utils检验配置参数格式。检验完成之后。使用markdown-it插件根据配置的参数，解析并返回数据。
