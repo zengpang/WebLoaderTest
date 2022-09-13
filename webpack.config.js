@@ -19,7 +19,7 @@ module.exports = {
                     options:{esModule: false}
 				},
 				{
-					loader: 'markdown-loader',
+					loader: 'webmdloader',
 					options: {html:true}
 				}],
 			},
